@@ -50,13 +50,5 @@
       "rut_profesional": "15678432-9"
     },
     "dias_antes": null
-  },
-  {
-    "nombre": "Dr. Alvarez",
-    "condiciones": {},
-    "exclusiones": {
-      "estado": "cancelada"
-    },
-    "dias_antes": null
   }
 ]
