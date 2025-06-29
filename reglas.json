@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Cardiologia 1",
+    "condiciones": {
+      "especialidad": "cardiologia",
+      "tipo_atencion": "primera vez"
+    },
+    "exclusiones": {},
+    "dias_antes": 2
+  },
+  {
+    "nombre": "Cardiologia 2",
+    "condiciones": {
+      "especialidad": "cardiologia"
+    },
+    "exclusiones": {},
+    "dias_antes": 5
+  },
+  {
+    "nombre": "Cardiologia 3",
+    "condiciones": {
+      "especialidad": "cardiologia"
+    },
+    "exclusiones": {},
+    "dias_antes": 0
+  },
+  {
+    "nombre": "Dr. Martinez",
+    "condiciones": {
+      "rut_profesional": "13725665-1"
+    },
+    "exclusiones": {
+      "grupo_etario": "tercera edad"
+    },
+    "dias_antes": 1
+  },
+  {
+    "nombre": "Pediatria",
+    "condiciones": {
+      "especialidad": "pediatria",
+      "grupo_etario": "niño"
+    },
+    "exclusiones": {"tipo_atencion": "lista de espera"},
+    "dias_antes": 0
+  },
+  {
+    "nombre": "Dra. Gomez",
+    "condiciones": {},
+    "exclusiones": {
+      "rut_profesional": "15678432-9"
+    },
+    "dias_antes": null
+  },
+  {
+    "nombre": "Dr. Alvarez",
+    "condiciones": {},
+    "exclusiones": {
+      "estado": "cancelada"
+    },
+    "dias_antes": null
+  }
+]
