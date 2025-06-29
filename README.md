@@ -4,7 +4,7 @@ read_file(): Sirve para leer los archivos de entrada .json que contiene el lista
 
 filtro_dias(): Se decidió crear para obtener un primer filtro de datos, el cual elimina las citas que no correspondería contactar debido a la condición "días antes" que se compara con la fecha actual y la fecha de la cita. 
 
-edad_paciente(): Se utiliza para crear una nueva categoría llamada "grupo etario" que sirve para filtrar las citas de pediatría (es un poco redundante pero nunca está de más corroborar que los pacientes son niños). Se considera que la función está demás porque podría ser uno de los campos de entrada. Se elimina en un futuro.
+edad_paciente(): Se utiliza para crear una nueva categoría llamada "grupo etario" que sirve para filtrar las citas de pediatría (es un poco redundante pero nunca está de más corroborar que los pacientes son niños). Se considera que la función es necesaria porque fue un requerimiento nuevo, por lo que no se tiene inicialmente el concepto de grupo etario.
 
 filtrado_citas(): Función principal. Toma el subconjunto de datos creado por filtro_dias() para estudiar las condiciones que podría tener la cita, comparandolo con las "reglas" de los requerimientos del cliente. En caso de que exista condiciones, se procede a ver si existen exclusiones filtrándolas. Si no existen condiciones, se detiene el loop para no guardar la cita. 
 
