@@ -38,7 +38,8 @@
     "nombre": "Pediatria",
     "condiciones": {
       "especialidad": "pediatria",
-      "grupo_etario": "niño"
+      "grupo_etario": "niño",
+      "tipo_atencion": "control"
     },
     "exclusiones": {"tipo_atencion": "lista de espera"},
     "dias_antes": 0
