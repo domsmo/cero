@@ -38,7 +38,8 @@
     "nombre": "Pediatria",
     "condiciones": {
       "especialidad": "pediatria",
-      "grupo_etario": "niño"
+      "grupo_etario": "niño",
+      "tipo_atencion": "control"
     },
     "exclusiones": {"tipo_atencion": "lista de espera"},
     "dias_antes": 0
@@ -48,14 +49,6 @@
     "condiciones": {},
     "exclusiones": {
       "rut_profesional": "15678432-9"
-    },
-    "dias_antes": null
-  },
-  {
-    "nombre": "Dr. Alvarez",
-    "condiciones": {},
-    "exclusiones": {
-      "estado": "cancelada"
     },
     "dias_antes": null
   }
